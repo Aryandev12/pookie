@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pookie-ai"                                
-version = "1.0.0"                                
+version = "1.0.1"                                
 description = "Pookie - AI-powered terminal assistant using Gemini API"
 authors = [{name = "Aryan Dev", email = "aryandev512@gmail.com"}] 
 readme = "README.md"                           
