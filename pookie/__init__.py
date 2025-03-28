@@ -5,7 +5,6 @@ from .gemini_api import init_gemini, get_command
 def initialize_gemini():
     """Initialize Gemini with the saved API key."""
     if not check_first_time_setup():
-        print("⚠️ No API key found. Please run `pookie setup`.")
         return None
 
     api_key = load_api_key()

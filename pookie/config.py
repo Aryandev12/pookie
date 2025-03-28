@@ -24,6 +24,5 @@ def load_api_key():
 def check_first_time_setup():
     """Check if the API key is already configured."""
     if not CONFIG_FILE.exists():
-        console.print("[bold yellow]⚠️ No API key found. Please run `pookie setup`.[/bold yellow]")
         return False
     return True

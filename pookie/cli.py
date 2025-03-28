@@ -53,6 +53,9 @@ def main():
     if args.command:
         if args.command[0] == "setup":
             setup()
+            return
+        if not check_first_time_setup():
+            console.print("[bold yellow]⚠️ No API key found. Please run `pookie setup`.[/bold yellow]")
             return 
         prompt = ' '.join(args.command)
         command = get_command(prompt)
