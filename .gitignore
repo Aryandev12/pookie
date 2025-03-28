@@ -1,0 +1,20 @@
+# Virtual environment
+pookie-env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Configuration file with API key
+~/.pookie_config
