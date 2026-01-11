@@ -21,10 +21,10 @@ def run_pookie():
     """Main CLI entry point."""
     # Check for first-time setup
     if not check_first_time_setup():
-        console.print("[bold yellow]⚠️ No API key found. Please run `pookie setup`.[/bold yellow]")
+        console.print("[bold yellow] No API key found. Please run `pookie setup`.[/bold yellow]")
         return
     # Display welcome message
-    console.print("[bold magenta]🐾 Welcome to Pookie! 🐾[/bold magenta]")
+    console.print("[bold magenta] Welcome to Pookie! [/bold magenta]")
     console.print("[bold cyan]Use `pookie setup` to reconfigure the API key.[/bold cyan]")
 
     while True:
